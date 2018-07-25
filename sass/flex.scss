@@ -1,0 +1,49 @@
+@mixin border_debug {
+  border: 1px solid red;
+}
+@media screen and(max-width:1024px){
+
+  body{
+    flex-direction:column;
+    justify-content: center;
+    width:94%;
+  }
+}
+
+@media screen and(max-width:768px){
+
+
+}
+
+@media screen and(max-width:480px){
+
+
+}
+
+@media screen and(max-width:480px){
+
+
+}
+
+@media screen and(max-width:320px){
+
+
+}
+
+@media screen and(max-width:240px){
+
+
+}
+body {
+  display: flex;
+  flex-derection: row;
+  justify-content: space-between;
+
+}
+section {
+  @include border_debug;
+  width:100%;
+  margin: 10px;
+  height: 200px;
+  align-content:stretch;
+}

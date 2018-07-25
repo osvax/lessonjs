@@ -1,0 +1,64 @@
+@mixin width($width){
+	width:$width;
+}
+
+@mixin border_debug(){
+	border: 1px solid red;
+}
+
+html{
+  padding: 0;
+  margin: 0;
+}
+
+section{
+	@include width(100%);
+  display: flex;
+	align-items:flex-end;
+}
+
+header{
+  @include width(90%);
+  height: 100px;
+  margin: auto;
+  display:flex;
+  justify-content: space-around;
+
+	.header-logo{
+	  margin-top:20px;
+		@include border_debug();
+	}
+
+	nav{
+		margin-top:40px;
+	@include border_debug();
+		.header-nav_ul{
+			@include width(100%);
+			display: flex;
+			list-style: none;
+
+			li{
+				margin: 0 20px;
+				a {
+					text-decoration: none;
+					font: {
+						family: Tahoma;
+						size: 1rem;
+						weight: bold;
+					}
+					color: rgb(0, 0, 0);
+
+				}
+			}
+		}
+	}
+
+
+}
+
+.slider{
+	@include border_debug();
+	height: 600px;
+	margin: auto;
+
+}

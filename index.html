@@ -3,25 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+
+    <link href="/stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
+    <!--[if IE]>
+    *   <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    * <![endif]-->
 </head>
 <body>
-
-
-<form name="form" action="" method="get">
-
-<button type="button">Нажми меня</button>
-<button type="button">Нажми меня</button>
-<button type="button">Нажми меня</button>
-<button type="button">Нажми меня</button>
-
-
-</form>
-
-<div class="container">
-    <ul id="cont_ul"></ul>
-    <p>Общая сумма: <span id="sum"></span></p>
-</div>
-
-<script type="text/javascript" src="js/events.js"></script>
+	<div class="container">
+		<section>
+			<header>
+				<div class="header-logo">
+					<a href="#" title=""><img src="images/logo.png" alt="" width="200px" height="50px"></a>
+				</div>
+				<nav>
+          <ul class="header-nav_ul">
+						<li><a href="">Каталог</a></li>
+						<li><a href="">Акции</a></li>
+						<li><a href="">Блог</a></li>
+						<li><a href="">Вакансии</a></li>
+						<li><a href="">Контакты</a></li>
+					</ul>
+				</nav>
+			</header>
+		</section>
+		<section>
+			<div class="slider">
+				<ul class="slider-ul">
+					<!--<li><img src="images/logomak_logo(1).png" alt=""></li>-->
+					<!--<li><img src="images/logomak_logo(2).png" alt=""></li>-->
+					<li><img src="images/logomak_logo(3).png" alt="" width="1000" height="450"></li>
+					<!--<li><img src="images/logomak_logo(4).png" alt=""></li>-->
+					<!--<li><img src="images/logomak_logo(5).png" alt=""></li>-->
+				</ul>
+			</div>
+		</section>
+	</div>
+<script type="text/javascript" src="js/animate.js"></script>
 </body>
 </html>

@@ -1,0 +1,41 @@
+@import "compass/reset";
+
+//Все что больше 1824
+@media only screen and (min-width : 1824px) {
+
+}
+
+//Все что больше 1224
+@media only screen and (min-width : 1224px) and (max-width : 1824px) {
+
+}
+
+//Все что больше 1024
+@media only screen and (min-width : 1024px) and (max-width : 1224px) {
+
+}
+
+//Все что больше 768 и меньше 1024
+@media only screen and (min-width : 768px) and (max-width : 1024px){
+
+}
+//Все что больше 480 и меньше 768
+@media screen and (min-width : 480px) and(max-width:768px){
+
+
+}
+//Все что юольше 320 и меньше 480
+@media only screen and (min-width : 320px) and (max-width : 480px){
+
+
+}
+
+@media screen and(max-width:320px){
+
+
+}
+
+@media screen and(max-width:240px){
+
+
+}

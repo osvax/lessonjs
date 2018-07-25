@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/osvax/jslessons/issues"
   },
-  "homepage": "https://github.com/osvax/jslessons#readme"
+  "homepage": "https://github.com/osvax/jslessons#readme",
+  "dependencies": {
+    "uglify": "^0.1.5"
+  }
 }

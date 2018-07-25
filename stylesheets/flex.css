@@ -1,0 +1,1 @@
+@media screen and (max-width: 1024px){body{flex-direction:column;justify-content:center;width:94%}}body{display:flex;flex-derection:row;justify-content:space-between}section{border:1px solid red;width:100%;margin:10px;height:200px;align-content:stretch}
